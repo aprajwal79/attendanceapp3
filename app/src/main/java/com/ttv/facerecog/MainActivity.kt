@@ -47,7 +47,6 @@ class MainActivity : AppCompatActivity(){
         mydb = DBHelper(this)
         mydb!!.getAllUsers()
 
-
         val btnRegister = findViewById<Button>(R.id.btnRegister)
         btnRegister.setOnClickListener {
             val intent = Intent()
