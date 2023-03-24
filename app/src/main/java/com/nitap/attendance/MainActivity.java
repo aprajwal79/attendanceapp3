@@ -22,11 +22,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        display("WELCOME");
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                int i = FaceEngine.getInstance(context).setActivation("");
-                display(Objects.toString(i));
+                //int i = FaceEngine.getInstance(context).setActivation("");
+               // display(Objects.toString(i));
               //
                 //  Toast.makeText(this, Objects.toString(i), Toast.LENGTH_SHORT).show();
             }

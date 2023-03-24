@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.ttv.facedemo"
+        applicationId "com.nitap.attendance"
         minSdk 21
         targetSdk 31
         versionCode 1
